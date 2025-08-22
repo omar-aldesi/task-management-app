@@ -1,8 +1,5 @@
-You're absolutely right! Let me create a clean, professional README that showcases your skills without overwhelming the reader.
+[![CI/CD Pipeline](https://github.com/omaraldesi/task-management-app/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/omaraldesi/task-management-app/actions/workflows/ci-cd.yml)
 
-## Clean & Professional README.md
-
-````markdown
 # Task Management Application
 
 A full-stack task management application with drag-and-drop Kanban board functionality. Built with Node.js, React/Next.js, and PostgreSQL.
@@ -11,13 +8,12 @@ A full-stack task management application with drag-and-drop Kanban board functio
 
 ### Docker Hub (Recommended)
 
-```bash
+```
 git clone https://github.com/omaraldesi/task-management-app.git
 cd task-management-app
 cp .env.example .env
 docker-compose -f docker-compose.hub.yml up -d
 ```
-````
 
 **Access**: http://localhost:3000  
 **API Docs**: http://localhost:5000/api-docs
